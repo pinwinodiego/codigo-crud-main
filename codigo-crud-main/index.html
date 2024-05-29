@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="assests/js/firebase.js"></script>
+    <script type="module"src="assests/js/script.js"> </script>
+    <link rel="stylesheet" href="/assests/cs/assets.css">
+</head>
+<body>
+
+    <h1>Registrar</h1>
+
+    <input type="text" id="nombre" placeholder="Nombre"><br>
+    <input type="text" id="apellido" placeholder="Apellido"><br>
+    <input type="number" id="rut" placeholder="Rut"><br>
+    <input type="text" id="correo" placeholder="Correo"><br>
+    <input type="text" id="edad" placeholder="Edad"><br>
+    <input type="date" id="fnacimiento" placeholder="Fecha de nacimiento"><br>
+
+
+    <button id="btnRegistrar">registrar</button>
+
+
+    <table id="tPersonas">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Rut</th>
+                <th>Correo</th>
+                <th>Edad</th>
+                <th>fecha de nacimiento</th>
+            </tr>
+        </thead>
+        <tbody id="tbPersonas">
+
+        </tbody>
+    </table>
+
+    <h1>Modificar</h1>
+    <input type="text" id="UPDnombre" placeholder="Nombre"><br>
+    <input type="text" id="UPDapellido" placeholder="Apellido"><br>
+    <input type="number" id="UPDrut" placeholder="Rut"><br>
+    <input type="text" id="UPDcorreo" placeholder="Correo"><br>
+    <input type="text" id="UPDedad" placeholder="Edad"><br>
+    <input type="date" id="UPDfnacimiento" placeholder="Fecha de nacimiento"><br>
+    <button id="btnActualizar">Actualizar</button>
+
+
+</body>
+</html>
